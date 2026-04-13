@@ -1,0 +1,39 @@
+{
+  "name": "@csgaglobal/autonomous-vehicles",
+  "version": "1.0.0",
+  "description": "AI governance for autonomous vehicle technology including safety validation, sensor fusion oversight, and regulatory compliance for self-driving systems.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "autonomous-vehicles-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "license": "CC0-1.0",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "author": "CSGA Global",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csga-global/mcp-servers",
+    "directory": "packages/autonomous-vehicles"
+  },
+  "keywords": [
+    "mcp",
+    "autonomous-vehicles",
+    "ai-governance",
+    "self-driving",
+    "adas"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
